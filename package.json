@@ -30,7 +30,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
     "lint:ts": "eslint src --ext .js,.jsx,.ts,.tsx",
     "lint:css": "npx stylelint **/*.css",
