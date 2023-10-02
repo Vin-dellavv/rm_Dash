@@ -56,8 +56,6 @@ const Characters = (): JSX.Element => {
 	if (error) return <Empty description={error.message} />;
 
 	const characterLs: CharacterLs = allChara;
-
-	// FIXME add virtual scroll
 	return <CharacterGrid characterLs={characterLs} />;
 };
 export default Characters;

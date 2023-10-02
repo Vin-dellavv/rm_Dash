@@ -16,7 +16,7 @@ type ContextSts = {
 	allRes: SearchedResults;
 	setAllRes: React.Dispatch<React.SetStateAction<SearchedResults>>;
 };
-export const SrcCTX = createContext<ContextSts>({} as ContextSts); // FIXME more efficient way?
+export const SrcCTX = createContext<ContextSts>({} as ContextSts);
 
 const Home = (): JSX.Element => (
 	<main className="home__wrapper">
