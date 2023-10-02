@@ -1,0 +1,27 @@
+.character__wrapper {
+	display: grid;
+	grid-template-columns: repeat( 3, 1fr );
+	grid-template-rows: auto;
+
+	& picture {
+		place-self: center;
+	}
+
+	& .ant-descriptions-title {
+		font-size: 24px;
+	}
+}
+
+.character__image {
+	max-width: 200px;
+	max-height: 200px;
+	grid-area: 1 / 1 / 2 / 2;
+}
+
+.character__info {
+	grid-area: 1 / 2 / 2 / 4;
+}
+
+.character__episodes {
+	grid-area: 2 / 1 / 3 / 4;
+}

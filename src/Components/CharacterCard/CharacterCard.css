@@ -1,0 +1,8 @@
+.character__card {
+	width: 200px;
+}
+
+.character__info {
+	list-style: none;
+	padding: 0;
+}

@@ -1,0 +1,10 @@
+.charList {
+	width: 100%;
+	height: 65vh;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.charList::-webkit-scrollbar {
+	display: none;
+}

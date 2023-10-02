@@ -1,0 +1,15 @@
+.spaceBar__audio-logo {
+	font-size: 16px;
+	color: var( --blue-light );
+}
+
+.suffix__wrapper {
+	display: flex;
+}
+
+.suffix__btn.suffix__btn {
+	height: 22px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 0;
+}

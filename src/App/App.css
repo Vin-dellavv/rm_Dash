@@ -1,0 +1,24 @@
+:root {
+	/* Blacks */
+	--default-black: #000;
+	--black-medium: #141414;
+
+	/* Greys */
+	--default-grey: #CACACA;
+
+	/* Whites */
+	--default-white: #FFF;
+
+	/* Blues */
+	--default-blue: #00F;
+	--blue-light: #1677FF;
+	--blue-lightest: #08BAE3;
+
+	/* Yellows */
+	--default-yellow: #FF0;
+	--yellow-light: #FFF765;
+}
+
+.app__wrapper {
+	min-height: 100vh;
+}

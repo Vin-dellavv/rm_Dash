@@ -1,0 +1,14 @@
+.main__wrapper {
+	margin: 0 16px;
+}
+
+.main__content {
+	min-height: 360px;
+	padding: 24px;
+	color: var( --default-white );
+}
+
+.home__wrapper {
+	display: grid;
+	place-items: center;
+}
